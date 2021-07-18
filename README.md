@@ -9,7 +9,7 @@ The reason for doing this could include : multiple backups, high availability CI
 
 ## Git Service Providers
 
-While there are many Git service providers, this tutorial focus on three. If you're following this tutorial in its entirety, you will need an account on the providers listed below. If you already have accounts, you will be adding a new repository named : `git-remote-demo` to each of your accounts.  These new repositories can of course be deleted after.
+While there are many Git service providers, this tutorial will focus on three. If you're following this tutorial in its entirety, you will need an account on the providers listed below. If you already have accounts, you will be adding a new repository named : `git-remote-demo` to each of your accounts.  These new repositories can of course be deleted after.
 
 - [Github][] (the primary checkout, push and pull remote)
 - [Gitlab][] (secondary push remote)
