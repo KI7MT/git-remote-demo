@@ -236,7 +236,7 @@ Now that we have SSH Keys built, installed on the Git Service Providers, and loa
 it's time to build the demo repository.
 
 We will first make our directories, then initialize and add remotes. In a terminal, issue the following commands. We'll
-use the /tmp directory to prevent any potential elsewhere.
+use the /tmp directory to prevent any potential conflicts elsewhere.
 
 ```bash
 # create directories
