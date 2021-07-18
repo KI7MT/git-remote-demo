@@ -220,7 +220,7 @@ Finished
 ## Creating the Projects
 
 There are many command line tools to create repositories remotely, and most differ between service providers. To ensure 
-a smooth push, we need to create repo's in each of the destinations where we want it replicated.
+a smooth push for this tutorial, we need to create repo's in each of the destinations.
 
 When creating the repos, there should be `no gitignores`, `no README` files, just a blank repository.
 
