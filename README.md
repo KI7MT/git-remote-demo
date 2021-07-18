@@ -281,12 +281,10 @@ git add . && git commit -am "Git Multi-Remote Initial Commit"
 # Push to the repositories
 git push
 
-# You should see output similar to the following:
+#
 # The results below show the work of this tutorial, so the number of objects will be off a bit from
 # what you would get from a single README.md file.
 # 
-# You can also see both the Gitlab and Bitbucket push urls succeeded in addition ot the origin
-# master being on Github.
 
 Enumerating objects: 6, done.
 Counting objects: 100% (6/6), done.
