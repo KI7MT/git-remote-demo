@@ -1,4 +1,4 @@
-# Push Code to Multiple Git Remotes Using SSH Identities
+# Push Code to Multiple Git Remotes Using SSH
 
 This simple tutorial will demonstrate one method (there are many) of pushing a single repository to multiple remotes, along with using SSH-Keys for identity.
 
