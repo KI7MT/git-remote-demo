@@ -230,7 +230,7 @@ When creating the repos, there should be `no gitignores`, `no README` files, jus
 
 Keep those pages open, as well need them in the next section.
 
-## Generating Multi-Remote Repository
+## Adding Multiple Remote Repositories
 
 Now that we have SSH Keys built, installed on the Git Service Providers, and loaded to the SSH-Agent,
 it's time to build the demo repository.
