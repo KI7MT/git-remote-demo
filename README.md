@@ -21,7 +21,7 @@ While there are many Git service providers, this tutorial focus on three. If you
 
 ## SSH Keys Overview
 
-Searching the web you'll a multitude of suggestions regarding SSH key best practices. For the purposes of this tutorial, we'll keep it simple yet fairly secure by using the following:
+Searching the web you'll find a multitude of suggestions regarding SSH key best practices. For the purposes of this tutorial, we'll keep it simple yet fairly secure by using the following:
 
 - Unique SSH key for each Service Provider
 - Use modern ed25519 algorithm for keys
