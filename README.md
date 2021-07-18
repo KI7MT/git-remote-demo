@@ -252,6 +252,7 @@ git init
 # Make sure the URLs match what you created in the previous section.
 
 git remote add origin git@github.com:<account>/git-remote-demo.git
+git remote set-url --add --push origin git@github.com:<account>/git-remote-demo.git
 git remote set-url --add --push origin git@gitlab.com:<account>/git-remote-demo.git
 git remote set-url --add --push origin git@bitbucket.org:<account>/git-remote-demo.git
 
@@ -264,7 +265,7 @@ git remote -v
 origin	git@github.com:<account>/git-remote-demo.git (fetch)
 origin	git@gitlab.com:<account>/git-remote-demo.git (push)
 origin	git@bitbucket.org:<account>/git-remote-demo.git (push)
-
+origin	git@github.com:<account>/git-remote-demo.git (push)
 
 # Add a Base README.md file and commit changes
 
