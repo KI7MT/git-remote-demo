@@ -4,7 +4,7 @@ This simple tutorial will demonstrate one method (there are many) of pushing a s
 
 The reason for doing this could include : multiple backups, high availability CI/CD pipelines, improved internet speeds around the globe, etc.
 
->NOTE : The longest portion of this tutorial is setting up the SSH Keys. But once done, it's few simple commands
+>NOTE : The longest portion of this tutorial is setting up the SSH Keys. But once done, it's just a few simple commands
 >to push remotes to several Git Service Providers and can be used for any number of repositories.
 
 ## Git Service Providers
