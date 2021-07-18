@@ -232,9 +232,10 @@ Keep those pages open, as well need them in the next section.
 
 ## Generating Multi-Remote Repository
 
-Now that we have SSH Keys built, installed on the Git Service Providers, and SSH-Agent, it's time to build and deploy the demo repository.
+Now that we have SSH Keys built, installed on the Git Service Providers, and loaded to the SSH-Agent,
+it's time to build the demo repository.
 
-Will first make our directories, then initialize and add remotes. In a terminal, issue the following commands. We'll
+We will first make our directories, then initialize and add remotes. In a terminal, issue the following commands. We'll
 use the /tmp directory to prevent any conflicts elsewhere.
 
 ```bash
