@@ -285,7 +285,9 @@ git push
 # The results below show the work of this tutorial, so the number of objects will be off a bit from
 # what you would get from a single README.md file.
 # 
-# As you can see, both push urls are populated, as is the main push/pull repo on Github
+# As you can see, both push urls (Gitlab and Bitucket) are populated, as is the main push/pull
+# repo on Github
+#
 
 Enumerating objects: 5, done.
 Counting objects: 100% (5/5), done.
