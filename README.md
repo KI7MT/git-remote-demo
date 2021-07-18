@@ -155,14 +155,14 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBXer2Vs4t96EKveib2P2XuZRnoTRfguXkTT+t5jcQoC
 ## Loading SSH Keys to Agent
 
 If you have followed the ssh-key naming convention, you can use the following script to load all of your keys
-each time you fore up a terminal. Create a file called `load-keys.sh` somewhere in your home directory. It
+each time you open up a terminal. Create a file called `load-keys.sh` somewhere in your home directory. It
 (the script or function) can be anywhere that is easily accessed.
 
 You need to run this script once each log in session. If you log out, or reboot, you'll need to re-run the script
-to load the keys into the agent. Alternatively, you could add the commands as a function and source it from the
+to load the keys into the agent. Alternatively, you could add the commands as a function, source it from the
 ~/.bashrc` file and call it that way. A sample function is in the repo of this tutorial along with the script below.
 
-Each key will require to to provide the passphrase you entered when generating the keys.
+Each key will require you to provide the passphrase you entered when generating the keys.
 
 ```shell
 #!/usr/bin/env bash
