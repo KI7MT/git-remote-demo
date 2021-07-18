@@ -36,7 +36,6 @@ the commands.
 
 For each key-gen command set, unique, but string passphrase when prompted. We'll fo this for all four Git Service Providers.
 
-
 ### Github
 
 ```bash
@@ -272,7 +271,6 @@ origin	git@github.com:<account>/git-remote-demo.git (push)
 echo '# Git Multi-Remote Demo' >> README.md
 git add . && git commit -am "Git Multi-Remote Initial Commit"
 
-
 # You should see something similar to
 
 [master (root-commit) 3551b7f] Git Multi-Remote Initial Commit
@@ -320,5 +318,3 @@ Branch 'master' set up to track remote branch 'master' from 'origin'.
 [Add SSH Key to Github]: https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
 [Add SSH Key to Gitlab]: https://www.tutorialspoint.com/gitlab/gitlab_ssh_key_setup.htm
 [Add SSH Key to Bitbucket]: https://manage.accuwebhosting.com/knowledgebase/3608/How-to-add-my-SSH-key-to-GithuborBitbucket.html
-
-
