@@ -27,8 +27,8 @@ Searching the web you'll find a multitude of suggestions regarding SSH key best 
 - Use modern ed25519 algorithm for keys
 - Each key will have a passphrase
 - A comment will be added to each public key for easy user identification
-- Use ssh-add `<key-name>` to ssh-agent for passing to the service hosts
-- A ssh config file will be used for identities.
+- Use ssh-add `<key-name>` to ssh-agent for loading the keys
+- An ssh config file will be used for identities.
 
 ## Generating SSH Keys
 
