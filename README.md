@@ -76,7 +76,7 @@ In the `~/.ssh/` folder, create a file called `config` with no extension. You ca
 
 ```bash
 # create config file
-touch ~/.ssh/config && chmod 644 ~/.ssh/config
+touch ~/.ssh/config && chmod 600 ~/.ssh/config
 ```
 
 With a text editor, browse to and open the config file adding the following content. The identities should match those that we created earlier.
