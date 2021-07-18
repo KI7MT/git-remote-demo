@@ -283,10 +283,11 @@ git add . && git commit -am "Git Multi-Remote Initial Commit"
 git push -u origin master
 
 # You should see output similar to the following:
-# This results shows the work of this project, so the number of objects will be off a bit.
+# The results below show the work of this tutorial, so the number of objects will be off a bit from
+# what you would get from a single README.md file.
 # 
-# Note : you can can see both the Gitlab and Bitbucket push urls succeeded in addition ot the origin
-#        master being Github.
+# You can also see both the Gitlab and Bitbucket push urls succeeded in addition ot the origin
+# master being on Github.
 
 Enumerating objects: 6, done.
 Counting objects: 100% (6/6), done.
