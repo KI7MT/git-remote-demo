@@ -1,6 +1,7 @@
 # Push Code to Multiple Git Remotes Using SSH Identities
 
 This simple tutorial will demonstrate one method (there are many) of pushing a single repository to multiple remotes, along with using SSH-Keys for identity.
+
 The reason for doing this could include : multiple backups, high availability CI/CD pipelines, improved internet speeds around the globe, etc.
 
 >NOTE : The longest portion of this tutorial is setting up the SSH Keys. But once done, it's few simple commands
@@ -8,7 +9,7 @@ The reason for doing this could include : multiple backups, high availability CI
 
 ## Git Service Providers
 
-While there are many Git service providers, this how-to will focus on four. If you're following this tutorial in its entirety, you will need an account on the providers listed below. If you already have accounts, you will be adding a new repository named : `git-remote-demo` to each of your accounts.  These new repositories can of course be deleted after.
+While there are many Git service providers, this tutorial focus on three. If you're following this tutorial in its entirety, you will need an account on the providers listed below. If you already have accounts, you will be adding a new repository named : `git-remote-demo` to each of your accounts.  These new repositories can of course be deleted after.
 
 - [Github][] (the primary checkout, push and pull remote)
 - [Gitlab][] (secondary push remote)
@@ -203,16 +204,16 @@ Adding SSH Keys to SSH-Agent
 ------------------------------
 
 Adding SSH Key: id_ed25519_gh_demo
-Enter passphrase for /home/ki7mt/.ssh/id_ed25519_gh_demo: 
-Identity added: /home/ki7mt/.ssh/id_ed25519_gh_demo (SSH Key for Github Demo)
+Enter passphrase for /home/$USER/.ssh/id_ed25519_gh_demo: 
+Identity added: /home/$USER/.ssh/id_ed25519_gh_demo (SSH Key for Github Demo)
 
 Adding SSH Key: id_ed25519_gl_demo
-Enter passphrase for /home/ki7mt/.ssh/id_ed25519_gl_demo: 
-Identity added: /home/ki7mt/.ssh/id_ed25519_gl_demo (SSH Key for Gitlab Demo)
+Enter passphrase for /home/$USER/.ssh/id_ed25519_gl_demo: 
+Identity added: /home/$USER/.ssh/id_ed25519_gl_demo (SSH Key for Gitlab Demo)
 
 Adding SSH Key: id_ed25519_bb_demo
-Enter passphrase for /home/ki7mt/.ssh/id_ed25519_bb_demo: 
-Identity added: /home/ki7mt/.ssh/id_ed25519_bb_demo (SSH Key for Bitbucket Demo)
+Enter passphrase for /home/$USER/.ssh/id_ed25519_bb_demo: 
+Identity added: /home/$USER/.ssh/id_ed25519_bb_demo (SSH Key for Bitbucket Demo)
 
 Finished
 ```
@@ -220,9 +221,9 @@ Finished
 ## Creating the Projects
 
 There are many command line tools to create repositories remotely, and most differ between service providers. To ensure 
-a smooth push, we need to create the repo in each of the destination where we want it replicated. This is a process.
+a smooth push, we need to create repo's in each of the destinations where we want it replicated.
 
-When creating these repos, there should be `no gitignores`, `no README` files, just a blank repository.
+When creating the repos, there should be `no gitignores`, `no README` files, just a blank repository.
 
 - Log into Github and create a Repo named - git-remote-demo
 - Log into Gitlab and create a Repo named - git-remote-demo
@@ -234,7 +235,7 @@ Keep those pages open, as well need them in the next section.
 
 Now that we have SSH Keys built, installed on the Git Service Providers, and SSH-Agent, it's time to build and deploy the demo repository.
 
-Will first make out directories, then initialize and add remotes. In a terminal, issue the following commands. We'll
+Will first make our directories, then initialize and add remotes. In a terminal, issue the following commands. We'll
 use the /tmp directory to prevent any conflicts elsewhere.
 
 ```bash
