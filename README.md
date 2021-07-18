@@ -285,28 +285,38 @@ git push
 # The results below show the work of this tutorial, so the number of objects will be off a bit from
 # what you would get from a single README.md file.
 # 
+# As you can see, both push urls are populated, as is the main push/pull repo on Github
 
-Enumerating objects: 6, done.
-Counting objects: 100% (6/6), done.
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
 Delta compression using up to 32 threads
-Compressing objects: 100% (6/6), done.
-Writing objects: 100% (6/6), 4.39 KiB | 4.39 MiB/s, done.
-Total 6 (delta 1), reused 0 (delta 0)
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 385 bytes | 385.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
 
 To gitlab.com:<account>/git-remote-demo.git
- * [new branch]      master -> master
-Branch 'master' set up to track remote branch 'master' from 'origin'.
+   494a55a..59b37b9  master -> master
 
-Enumerating objects: 6, done.
-Counting objects: 100% (6/6), done.
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
 Delta compression using up to 32 threads
-Compressing objects: 100% (6/6), done.
-Writing objects: 100% (6/6), 4.39 KiB | 4.39 MiB/s, done.
-Total 6 (delta 1), reused 0 (delta 0)
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 385 bytes | 385.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
 
 To bitbucket.org:<account>/git-remote-demo.git
- * [new branch]      master -> master
-Branch 'master' set up to track remote branch 'master' from 'origin'.
+   494a55a..59b37b9  master -> master
+
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 32 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 385 bytes | 385.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+
+To github.com:<account>/git-remote-demo.git
+   494a55a..59b37b9  master -> master
 
 ```
 
