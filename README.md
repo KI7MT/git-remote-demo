@@ -280,8 +280,7 @@ git add . && git commit -am "Git Multi-Remote Initial Commit"
  create mode 100644 README.md
 
 # Push to the repositories
-git push --set-upstream origin master
-git push -u origin master
+git push
 
 # You should see output similar to the following:
 # The results below show the work of this tutorial, so the number of objects will be off a bit from
