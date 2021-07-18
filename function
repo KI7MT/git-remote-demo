@@ -1,0 +1,34 @@
+#
+# Simple function to load SSH keys into agent
+# Add to ~/.bash_functions
+# Ensure your bashrc or profile sources the ~/.bash_functions file
+# Call the function with:: load-ssh-keys
+#
+
+function load-ssh-keys() {
+    set -e
+
+    # declare array of abbreviations
+    declare -a abbv=(gh gl bb)
+
+    clear ||:
+
+    echo '------------------------------'
+    echo 'Adding SSH Keys to SSH-Agent'
+    echo '------------------------------'
+    echo ''
+
+    # loop through array
+    for i in "${abbv[@]}"
+    do
+        KEY_NAME="id_ed25519_${i}_demo"
+        KEY_PATH="/home/${USER}/.ssh/${KEY_NAME}"
+        echo "Adding SSH Key: ${KEY_NAME}"
+        ssh-add "$KEY_PATH"
+        echo ''
+    done
+
+    echo 'Finished'
+    echo
+
+}

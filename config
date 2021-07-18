@@ -1,0 +1,11 @@
+Host github.com
+    User git
+    IdentityFile ~/.ssh/id_rsa_gh_demo
+
+Host gitlab.com
+    User git
+    IdentityFile ~/.ssh/id_rsa_gl_demo
+
+Host bitbucket.org
+    User git
+    IdentityFile ~/.ssh/id_rsa_bb_demo
