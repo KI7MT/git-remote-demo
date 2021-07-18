@@ -97,7 +97,7 @@ Host bitbucket.org
 
 ## Add SSH Key to Github
 
-Log into your [Github][] account, and perform the following tasks. The following link is Github's example. Use it in conjunction with the commands below to setup your public key.
+Log into your [Github][] account, and perform the following tasks. The following link is a Github example. Use it in conjunction with the commands below to setup your public key.
 
 - [Add SSH Key to Github][]
 
@@ -116,7 +116,7 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHAFuwriycA2Nm7jBzAHIKEx+WwVOrK0YtOFribY2sH6
 
 ## Add SSH Key to Gitlab
 
-Log into your [Gitlab][] account, and perform the following tasks. The following link is Github's example. Use it in conjunction with the commands below to setup your public key.
+Log into your [Gitlab][] account, and perform the following tasks. The following link is a Gitlab example. Use it in conjunction with the commands below to setup your public key.
 
 - [Add SSH Key to Gitlab][]
 
@@ -135,7 +135,7 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAByZlA4+y2tBSAE2oBHuNBTxpWRHCMjOLiGmgTz7xre
 
 ## Add SSH Key to Bitbucket
 
-Log into your [Bitbucket][] account, and perform the following tasks. The following link am Bitbucket example. Use it in conjunction with the commands below to setup your public key.
+Log into your [Bitbucket][] account, and perform the following tasks. The following link ia Bitbucket example. Use it in conjunction with the commands below to setup your public key.
 
 - [Add SSH Key to Bitbucket][]
 
