@@ -217,7 +217,7 @@ Identity added: /home/$USER/.ssh/id_ed25519_bb_demo (SSH Key for Bitbucket Demo)
 Finished
 ```
 
-## Creating the Projects
+## Creating the Project
 
 There are many command line tools to create repositories remotely, and most differ between service providers. To ensure 
 a smooth push for this tutorial, we need to create repo's in each of the destinations.
