@@ -35,7 +35,7 @@ Searching the web you'll a multitude of suggestions regarding SSH key best pract
 If you are on Windows, Use Git-SCM or WSL2, it's just easier. For all other, use your default system terminal to perform
 the commands.
 
-For each key-gen command set a unique passphrase when prompted. We'll do this for all three Git Service Providers.
+For each ssh-keygen command, set a unique passphrase when prompted. We'll do this for all three Git Service Providers.
 
 ### Github
 
