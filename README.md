@@ -312,6 +312,8 @@ Branch 'master' set up to track remote branch 'master' from 'origin'.
 
 ```
 
+[Git-SCM]: https://git-scm.com/
+[WSL2]: https://docs.microsoft.com/en-us/windows/wsl/install-win10
 [Github]: https://github.com/
 [Gitlab]: https://gitlab.com/
 [Bitbucket]: https://bitbucket.org/
