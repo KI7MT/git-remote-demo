@@ -160,7 +160,7 @@ each time you open up a terminal. Create a file called `load-keys.sh` somewhere 
 
 You need to run this script once each log in session. If you log out, or reboot, you'll need to re-run the script
 to load the keys into the agent. Alternatively, you could add the commands as a function, source it from the
-~/.bashrc` file and call it that way. A sample function is in the repo of this tutorial along with the script below.
+`~/.bashrc` file and call it that way. A sample function is included in the repo along with the script below.
 
 Each key will require you to provide the passphrase you entered when generating the keys.
 
