@@ -280,10 +280,37 @@ git add . && git commit -am "Git Multi-Remote Initial Commit"
 
 # Push to the repositories
 
-git push -u origin main
+git push -u origin master
+
+# You should see output similar to the following:
+# This results shows the work of this project, so the number of objects will be off a bit.
+# 
+# Note : you can can see both the Gitlab and Bitbucket push urls succeeded in addition ot the origin
+#        master being Github.
+
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 32 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 4.39 KiB | 4.39 MiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0)
+
+To gitlab.com:<account>/git-remote-demo.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 32 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 4.39 KiB | 4.39 MiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0)
+
+To bitbucket.org:<account>/git-remote-demo.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
 
 ```
-
 
 [Github]: https://github.com/
 [Gitlab]: https://gitlab.com/
