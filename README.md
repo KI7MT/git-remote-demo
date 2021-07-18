@@ -79,8 +79,7 @@ In the `~/.ssh/` folder, create a file called `config` with no extension. You ca
 touch ~/.ssh/config && chmod 644 ~/.ssh/config
 ```
 
-With a text edit, browse, and open the config file the following content. The identity files
-should match those that we created earlier.
+With a text edit, browse to and open config file adding the following content. The identities should match those that we created earlier.
 
 ```bash
 Host github.com
