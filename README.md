@@ -278,8 +278,12 @@ git add . && git commit -am "Git Multi-Remote Initial Commit"
  1 file changed, 1 insertion(+)
  create mode 100644 README.md
 
+
+# Create a master branch
+git branch -M master
+
 # Push to the repositories
-git push
+git push -u origin master
 
 #
 # The results below show the work of this tutorial, so the number of objects will be off a bit from
