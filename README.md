@@ -278,7 +278,6 @@ git add . && git commit -am "Git Multi-Remote Initial Commit"
  1 file changed, 1 insertion(+)
  create mode 100644 README.md
 
-
 # Create a master branch
 git branch -M master
 
